@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "rp-studio-back"
+version = "0.1.0"
+description = "A project with CRUD operations for scenarios and images"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.103.0"
+uvicorn = "^0.23.0"
+python-multipart = "^0.0.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+]
