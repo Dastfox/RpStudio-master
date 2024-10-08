@@ -1,0 +1,3 @@
+[submodule "front/RpStudio"]
+	path = front/RpStudio
+	url = git@github.com:Dastfox/RpStudio-front.git
