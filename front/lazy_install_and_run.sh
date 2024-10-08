@@ -7,6 +7,7 @@ then
     exit 1
 fi
 
+
 # Install Angular CLI
 echo "Installing Angular CLI..."
 npm install -g @angular/cli
