@@ -8,3 +8,6 @@
 	path = RpStudio-back
 	url = git@github.com:Dastfox/RpStudio-back.git
 	ignore = all
+[submodule "back/RpStudio"]
+	path = back/RpStudio
+	url = git@github.com:Dastfox/RpStudio-back.git
